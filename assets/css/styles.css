@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+  margin-right: 5px;
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.custom-brand h1 {
+  color:black;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+#presentation p {
+  text-align: justify;
+}
+
+.icon-container {
+  background-color:#0cb7f2; /* Código de color celeste */
+  width: 420px; /* Ancho deseado para el contenedor */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  margin: 0 auto; /* Centra el contenedor en el espacio disponible */
+  
+}
+
+.icon-container i {
+  font-size: 1.5em; /* Ajusta el tamaño del icono según sea necesario */
+}
+
+.card-body {
+  background-color: #0cb7f2; /* Color celeste */
+}
+.card-body p {
+  color: white !important; /* Color del texto */
+}
+
+.card {
+  max-width: 250px; /* Establece el ancho máximo de las tarjetas */
+}
+
+.card-img-top {
+  max-height: 150px; /* Establece la altura máxima de las imágenes */
+}
+
+.mb-4 {
+  margin-bottom: 1rem; /* Reduzca el espacio entre las tarjetas */
+}
+
+.form-control {
+  width: 350px; /* Altura deseada para los recuadros */
+}
+
+#footer {
+  background-color: #0cb7f2;
+  padding: 20px 0;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 20px; /* Ajusta el tamaño del texto del footer según sea necesario */
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px; /* Ajusta el espaciado entre los iconos según sea necesario */
+  font-size: 24px; /* Ajusta el tamaño de los iconos según sea necesario */
+}
